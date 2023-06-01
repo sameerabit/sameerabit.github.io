@@ -28,6 +28,7 @@
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
 /* line 31, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_color.scss */
 .white-bg {
   background: #ffffff;
@@ -308,7 +309,11 @@ button {
 }
 
 /* line 89, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -399,6 +404,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 157, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 30px;
@@ -406,6 +412,7 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 157, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 45px;
@@ -581,7 +588,8 @@ hr {
 }
 
 /* line 333, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -609,10 +617,11 @@ hr {
   font-weight: 600;
   background-size: 200%;
   transition: 0.6s;
-  border: 1px solid  #fff;
+  border: 1px solid #fff;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 347, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .hero-btn {
     padding: 10px 46px 9px 19px;
@@ -621,6 +630,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 347, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .hero-btn {
     padding: 10px 46px 9px 19px;
@@ -684,7 +694,7 @@ hr {
 }
 
 /* line 415, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-.cal-btn > p {
+.cal-btn>p {
   color: #072366 !important;
   font-weight: 700;
   font-size: 16px;
@@ -808,13 +818,14 @@ hr {
 
 /* button style */
 /* line 528, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-.breadcrumb > .active {
+.breadcrumb>.active {
   color: #888;
 }
 
 /* scrollUp */
 /* line 532, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-#scrollUp, #back-top {
+#scrollUp,
+#back-top {
   background: #071112;
   height: 50px;
   width: 50px;
@@ -831,14 +842,17 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 532, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-  #scrollUp, #back-top {
+  #scrollUp,
+  #back-top {
     right: 16px;
   }
 }
 
 /* line 549, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-#scrollUp a i, #back-top a i {
+#scrollUp a i,
+#back-top a i {
   display: block;
   line-height: 50px;
 }
@@ -2521,10 +2535,12 @@ hr {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
+
   50% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
   100% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
@@ -2562,6 +2578,7 @@ hr {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2572,6 +2589,7 @@ hr {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -2662,6 +2680,7 @@ hr {
     -o-transition: .6s;
     transition: .6s;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2679,6 +2698,7 @@ hr {
     -o-transition: .6s;
     transition: .6s;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2701,6 +2721,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 819, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 200px;
@@ -2709,6 +2730,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 819, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 200px;
@@ -2717,6 +2739,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 819, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 100px;
@@ -2725,6 +2748,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 819, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 70px;
@@ -2733,6 +2757,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 819, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 70px;
@@ -2746,6 +2771,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 844, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 50px;
@@ -2753,6 +2779,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 844, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 10px;
@@ -2760,6 +2787,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 844, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 10px;
@@ -2772,6 +2800,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 857, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
@@ -2779,6 +2808,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 857, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
@@ -2786,6 +2816,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 857, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
@@ -2799,6 +2830,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 869, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .w-padding2 {
     padding: 31px 13px;
@@ -2812,6 +2844,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 877, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 150px;
@@ -2820,6 +2853,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 877, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 70px;
@@ -2828,6 +2862,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 877, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 60px;
@@ -2836,6 +2871,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 877, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 60px;
@@ -2850,6 +2886,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 897, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .w-padding {
     padding-top: 70px;
@@ -2858,6 +2895,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 897, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .w-padding {
     padding-top: 70px;
@@ -2872,6 +2910,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 909, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 150px;
@@ -2880,6 +2919,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 909, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 100px;
@@ -2888,6 +2928,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 909, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 65px;
@@ -2896,6 +2937,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 909, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 65px;
@@ -2910,6 +2952,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 929, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding40 {
     padding-top: 70px;
@@ -2918,6 +2961,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 929, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding40 {
     padding-top: 60px;
@@ -2926,6 +2970,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 929, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding40 {
     padding-top: 60px;
@@ -2939,6 +2984,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 945, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-padding {
     padding-bottom: 140px;
@@ -2946,6 +2992,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 945, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-padding {
     padding-bottom: 60px;
@@ -2953,6 +3000,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 945, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pb-padding {
     padding-bottom: 60px;
@@ -2965,6 +3013,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 957, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pt-padding {
     padding-top: 140px;
@@ -2972,6 +3021,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 957, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pt-padding {
     padding-top: 70px;
@@ -2979,6 +3029,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 957, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .pt-padding {
     padding-top: 70px;
@@ -2992,6 +3043,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 969, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .services-padding {
     padding-top: 145px;
@@ -3000,6 +3052,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 969, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .services-padding {
     padding-top: 100px;
@@ -3008,6 +3061,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 969, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .services-padding {
     padding-top: 65px;
@@ -3016,6 +3070,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 969, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .services-padding {
     padding-top: 65px;
@@ -3030,6 +3085,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 989, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 150px;
@@ -3038,6 +3094,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 989, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 100px;
@@ -3046,6 +3103,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 989, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 65px;
@@ -3054,6 +3112,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 989, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 65px;
@@ -3068,6 +3127,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 1011, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 150px;
@@ -3076,6 +3136,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1011, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 60px;
@@ -3084,6 +3145,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1011, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 60px;
@@ -3092,6 +3154,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1011, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 60px;
@@ -3106,6 +3169,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 1032, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 120px;
@@ -3114,6 +3178,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1032, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 120px;
@@ -3122,6 +3187,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1032, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 80px;
@@ -3130,6 +3196,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1032, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 80px;
@@ -3138,6 +3205,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1055, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
@@ -3145,6 +3213,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1055, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
@@ -3161,6 +3230,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 1075, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 41px;
@@ -3168,6 +3238,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1075, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 31px;
@@ -3175,6 +3246,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1075, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 27px;
@@ -3188,6 +3260,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1092, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .section-tittle p {
     padding: 0 0px;
@@ -3195,6 +3268,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1102, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .small-section-tittle {
     margin-bottom: 50px;
@@ -3203,6 +3277,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1102, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .small-section-tittle {
     margin-bottom: 50px;
@@ -3221,6 +3296,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1110, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
   .small-section-tittle span {
     font-size: 14px;
@@ -3329,6 +3405,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 3, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 0px 30px;
@@ -3336,6 +3413,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 3, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 0px 15px;
@@ -3343,6 +3421,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 3, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 22px 50px;
@@ -3350,6 +3429,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 22px 20px;
@@ -3357,6 +3437,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 22px 14px;
@@ -3405,13 +3486,13 @@ hr {
 }
 
 /* line 64, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.header-area .main-header .main-menu ul li ul.submenu > li {
+.header-area .main-header .main-menu ul li ul.submenu>li {
   margin-left: 7px;
   display: block;
 }
 
 /* line 67, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.header-area .main-header .main-menu ul li ul.submenu > li > a {
+.header-area .main-header .main-menu ul li ul.submenu>li>a {
   color: #ffff;
   padding: 6px 10px !important;
   font-size: 16px;
@@ -3420,18 +3501,18 @@ hr {
 }
 
 /* line 73, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.header-area .main-header .main-menu ul li ul.submenu > li > a:hover {
+.header-area .main-header .main-menu ul li ul.submenu>li>a:hover {
   color: #fff;
   background: none;
 }
 
 /* line 88, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.header-area .main-menu ul ul.submenu > li > a:hover {
+.header-area .main-menu ul ul.submenu>li>a:hover {
   padding-left: 13px !important;
 }
 
 /* line 91, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.header-area .main-menu ul > li:hover > ul.submenu {
+.header-area .main-menu ul>li:hover>ul.submenu {
   visibility: visible;
   opacity: 1;
   top: 100%;
@@ -3461,7 +3542,7 @@ hr {
 }
 
 /* line 117, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.hamburger.hamburger--collapse > span {
+.hamburger.hamburger--collapse>span {
   display: inline-block;
   line-height: 1;
   position: relative;
@@ -3469,7 +3550,9 @@ hr {
 }
 
 /* line 124, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.black-menu .hamburger-inner, .black-menu .hamburger-inner::after, .black-menu .hamburger-inner::before {
+.black-menu .hamburger-inner,
+.black-menu .hamburger-inner::after,
+.black-menu .hamburger-inner::before {
   background: #000 none repeat scroll 0 0;
 }
 
@@ -3484,7 +3567,9 @@ hr {
 }
 
 /* line 135, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
-.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
   background: #000 none repeat scroll 0 0;
   height: 2px;
   width: 30px;
@@ -3545,6 +3630,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 186, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-sticky.sticky-bar.sticky {
     padding: 15px 0px;
@@ -3552,6 +3638,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 186, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-sticky.sticky-bar.sticky {
     padding: 15px 0px;
@@ -3559,6 +3646,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 186, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_headerMenu.scss */
   .header-sticky.sticky-bar.sticky {
     padding: 15px 0px;
@@ -3617,6 +3705,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 600px;
@@ -3624,6 +3713,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 650px;
@@ -3631,6 +3721,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 600px;
@@ -3638,6 +3729,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 600px;
@@ -3651,6 +3743,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 17, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 350px;
@@ -3658,6 +3751,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 17, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 260px;
@@ -3665,6 +3759,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 17, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 260px;
@@ -3673,21 +3768,21 @@ nav.nav-menu-show {
 
 /* line 30, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg1 {
-  background-image: url(../img/hero/h1_hero1.png);
+  background-image: url('https://scontent.fcmb11-1.fna.fbcdn.net/v/t39.30808-6/340766508_6371240692938787_2200609980377320685_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEPv_NsLdL-PvsKWdoLPgT67bT4s-TQ7xHttPiz5NDvEZmjvcV9Xe3v7W3ui9e2mhKlboiEwuMgYC1qjrO_l7RR&_nc_ohc=praTEOLR1c0AX_ieReW&_nc_zt=23&_nc_ht=scontent.fcmb11-1.fna&oh=00_AfDSktLQpEjP54KkUfAx_eV_tJea-M_oC0QHGFWT5tlAfw&oe=647C87A8');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg2 {
-  background-image: url(../img/hero/h1_hero2.png);
+  background-image: url('https://scontent.fcmb11-1.fna.fbcdn.net/v/t1.6435-9/163642265_123384899796658_5629786912539838703_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHrUhx0r3r7k4_n9e58u9H8bwhU-Pm3w2FvCFT4-bfDYYIgqKw5qQ8KWTdGD2UJnpJqsYf_lvTmASLs3cOfhScs&_nc_ohc=kvMNWzeJPiMAX8shOpD&_nc_ht=scontent.fcmb11-1.fna&oh=00_AfBg7y7L1dA6jHZaI2T9kCzrFxLysRG-Dwg93eEooNICtQ&oe=649FC7CB');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* line 40, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg3 {
-  background-image: url(../img/hero/h1_hero3.png);
+  background-image: url('https://scontent.fcmb11-1.fna.fbcdn.net/v/t1.6435-9/118662872_2746120952297323_7273780029209533712_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGA_smoX1WzQMOMBSiljWYhDGtYSxIvd18Ma1hLEi93X_RPV68M2BYIl3joPK8nHITRSiKwN4nw_gNXBIRPVAfh&_nc_ohc=2vm9F4FdklwAX95GOU9&_nc_ht=scontent.fcmb11-1.fna&oh=00_AfATC_aYVhUCJ6eZzGXb7-l-UkLt_jF_cgdHHCs5i8tnaw&oe=649FB9EA');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3714,6 +3809,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 58, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area.slider-area2 .hero__caption2 h2 {
     font-size: 50px;
@@ -3721,6 +3817,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 58, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area.slider-area2 .hero__caption2 h2 {
     font-size: 35px;
@@ -3728,6 +3825,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 74, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content {
     margin-top: -142px;
@@ -3735,6 +3833,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 74, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content {
     margin-top: -142px;
@@ -3742,6 +3841,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 74, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content {
     margin-top: -200px;
@@ -3774,6 +3874,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content h1 {
     font-size: 116px;
@@ -3781,6 +3882,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content h1 {
     font-size: 87px;
@@ -3788,6 +3890,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content h1 {
     font-size: 46px;
@@ -3805,6 +3908,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 120, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content img {
     height: 41px;
@@ -3821,6 +3925,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 129, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content p {
     padding-right: 13px;
@@ -3828,6 +3933,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 129, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content p {
     padding-right: 0px;
@@ -3835,6 +3941,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 129, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content p {
     padding-right: 0px;
@@ -3851,6 +3958,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 149, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slide-content2 {
     margin-bottom: 98px;
@@ -3858,6 +3966,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 149, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slide-content2 {
     margin-bottom: 105px;
@@ -3865,6 +3974,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 149, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slide-content2 {
     margin-bottom: 142px;
@@ -3968,6 +4078,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 244, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-nav {
     bottom: 5%;
@@ -3976,6 +4087,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 244, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-nav {
     bottom: 5%;
@@ -3984,6 +4096,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 244, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-nav {
     width: 313px;
@@ -4016,6 +4129,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 11, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_gallery.scss */
   .gallery-area .box .big-img {
     height: 435px;
@@ -4023,6 +4137,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 11, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_gallery.scss */
   .gallery-area .box .big-img {
     height: 435px;
@@ -4035,6 +4150,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 20, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_gallery.scss */
   .gallery-area .box .small-img {
     height: 380px;
@@ -4042,6 +4158,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 20, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_gallery.scss */
   .gallery-area .box .small-img {
     height: 335px;
@@ -4049,6 +4166,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 20, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_gallery.scss */
   .gallery-area .box .small-img {
     height: 335px;
@@ -4145,6 +4263,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area {
     display: block;
@@ -4152,6 +4271,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area {
     display: block;
@@ -4159,6 +4279,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area {
     display: block;
@@ -4179,6 +4300,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     padding-left: 5%;
@@ -4187,6 +4309,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     padding-left: 10%;
@@ -4194,6 +4317,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     padding-left: 8%;
@@ -4201,6 +4325,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     padding: 0 30px;
@@ -4208,6 +4333,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     padding: 0 30px;
@@ -4215,6 +4341,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     width: 100%;
@@ -4222,6 +4349,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     width: 100%;
@@ -4229,6 +4357,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 14, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups {
     width: 100%;
@@ -4237,6 +4366,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 55, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details {
     padding-right: 0px;
@@ -4261,6 +4391,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 66, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details h3 {
     font-size: 41px;
@@ -4268,6 +4399,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 66, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details h3 {
     font-size: 31px;
@@ -4275,6 +4407,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 66, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details h3 {
     font-size: 27px;
@@ -4288,6 +4421,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 83, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details p {
     font-size: 15px;
@@ -4295,6 +4429,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 83, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details p {
     font-size: 13px;
@@ -4320,6 +4455,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 103, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details .starups-list ul li p {
     padding-left: 9px;
@@ -4327,6 +4463,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 103, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups .starups-details .starups-list ul li p {
     padding-left: 9px;
@@ -4345,6 +4482,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 119, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups-img {
     width: 100%;
@@ -4353,6 +4491,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 119, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups-img {
     width: 100%;
@@ -4361,6 +4500,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 119, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
   .all-starups-area .starups-img {
     width: 100%;
@@ -4446,6 +4586,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 88, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_pricing.scss */
   .work-company .single-logo img {
     width: 100%;
@@ -4492,6 +4633,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 9, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption img {
     display: none;
@@ -4507,6 +4649,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 18, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption p {
     margin-bottom: 40px;
@@ -4514,6 +4657,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 18, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption p {
     width: 99%;
@@ -4521,6 +4665,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 18, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption p {
     margin-bottom: 33px;
@@ -4533,6 +4678,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .single-testimonial {
     padding: 100px 10px 0 80px;
@@ -4540,6 +4686,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .single-testimonial {
     padding: 11px 16px 0 18px;
@@ -4583,6 +4730,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 68, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_testimonial.scss */
   .testimonial-area .founder-text p {
     font-size: 12px;
@@ -4718,6 +4866,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area {
     padding-top: 100px;
@@ -4726,6 +4875,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area {
     padding-top: 65px;
@@ -4734,6 +4884,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area {
     padding-top: 65px;
@@ -4768,6 +4919,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 25, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area .single-cat .cat-cap h5 {
     font-size: 17px;
@@ -4775,6 +4927,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 25, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area .single-cat .cat-cap h5 {
     font-size: 17px;
@@ -4782,6 +4935,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 25, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area .single-cat .cat-cap h5 {
     font-size: 23px;
@@ -4799,6 +4953,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 44, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_services_section.scss */
   .categories-area .single-cat .cat-cap p {
     font-size: 15px;
@@ -4855,6 +5010,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 13, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_footer.scss */
   .footer-area .main-menu2 ul li a {
     padding: 18px 11px;
@@ -4862,6 +5018,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 13, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_footer.scss */
   .footer-area .main-menu2 ul li a {
     padding: 18px 11px;
@@ -4869,6 +5026,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 13, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_footer.scss */
   .footer-area .main-menu2 ul li a {
     padding: 18px 11px;
@@ -4993,6 +5151,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 17, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img .blog-date {
     padding: 8px 20px;
@@ -5000,6 +5159,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 17, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img .blog-date {
     padding: 8px 20px;
@@ -5007,6 +5167,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 17, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img .blog-date {
     padding: 8px 20px;
@@ -5023,6 +5184,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img .blog-date span {
     font-size: 22px;
@@ -5030,6 +5192,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img .blog-date span {
     font-size: 22px;
@@ -5037,6 +5200,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img .blog-date span {
     font-size: 22px;
@@ -5062,6 +5226,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 57, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 37px 23px 37px 45px;
@@ -5069,6 +5234,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 57, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 19px 8px 17px 18px;
@@ -5076,6 +5242,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 57, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 19px 8px 17px 18px;
@@ -5083,6 +5250,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 57, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 19px 8px 17px 18px;
@@ -5111,6 +5279,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 81, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
     font-size: 19px;
@@ -5118,6 +5287,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 81, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
     font-size: 19px;
@@ -5125,6 +5295,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 575px) {
+
   /* line 81, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
     font-size: 19px;
@@ -5177,7 +5348,8 @@ nav.nav-menu-show {
 }
 
 /* line 150, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #071112 0%, #071112 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5263,10 +5435,12 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 1199px) {
+
   /* line 210, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-blog .tag {
     margin-right: 8px;
   }
+
   /* line 234, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-blog .tag:after {
     display: none;
@@ -5279,6 +5453,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 800px) {
+
   /* line 160, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-blog {
     margin-bottom: 30px;
@@ -5304,6 +5479,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 1199px) {
+
   /* line 248, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-blog .single-blog-content {
     padding: 15px;
@@ -5320,6 +5496,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 1199px) {
+
   /* line 279, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-blog h4 {
     transition: all 300ms linear 0s;
@@ -5327,6 +5504,7 @@ nav.nav-menu-show {
     padding-bottom: 14px;
     margin-bottom: 12px;
   }
+
   /* line 285, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-blog h4 a {
     font-size: 18px;
@@ -5352,6 +5530,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 992px) {
+
   /* line 296, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .full_image.single-blog .single-blog-content {
     bottom: 100px;
@@ -5519,7 +5698,7 @@ nav.nav-menu-show {
 }
 
 /* line 494, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
-.causes_item .causes_bottom a + a {
+.causes_item .causes_bottom a+a {
   border-color: #eeeeee;
   background: #fff;
   font-size: 14px;
@@ -5584,7 +5763,7 @@ nav.nav-menu-show {
 }
 
 /* line 567, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
-.tags .tag_btn + .tag_btn {
+.tags .tag_btn+.tag_btn {
   margin-left: 2px;
 }
 
@@ -5596,6 +5775,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 900px) {
+
   /* line 574, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_categorie_area {
     padding-top: 80px;
@@ -5604,6 +5784,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 1100px) {
+
   /* line 574, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_categorie_area {
     padding-top: 120px;
@@ -5682,6 +5863,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 665, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_details {
     padding: 60px 30px 35px 35px;
@@ -5711,6 +5893,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 685, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_details h2 {
     font-size: 24px;
@@ -5774,6 +5957,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 735, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date {
     bottom: -20px;
@@ -5792,6 +5976,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 751, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date h3 {
     font-size: 30px;
@@ -5806,6 +5991,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 763, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date p {
     font-size: 18px;
@@ -5945,7 +6131,7 @@ nav.nav-menu-show {
 }
 
 /* line 913, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li + li {
+.blog_right_sidebar .post_category_widget .cat-list li+li {
   padding-top: 15px;
 }
 
@@ -5977,7 +6163,7 @@ nav.nav-menu-show {
 }
 
 /* line 959, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item + .post_item {
+.blog_right_sidebar .popular_post_widget .post_item+.post_item {
   margin-top: 20px;
 }
 
@@ -6122,6 +6308,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 1226, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-post-area .quote-wrapper {
     padding: 30px;
@@ -6136,6 +6323,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) {
+
   /* line 1240, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-post-area .quotes {
     padding: 25px 25px 25px 30px;
@@ -6219,6 +6407,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 600px) {
+
   /* line 1321, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-post-area .blog-author {
     padding: 20px 8px;
@@ -6234,6 +6423,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 600px) {
+
   /* line 1330, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-post-area .blog-author img {
     margin-right: 15px;
@@ -6321,6 +6511,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 1379, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
@@ -6367,6 +6558,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 991px) {
+
   /* line 1446, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
@@ -6382,6 +6574,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 414px) {
+
   /* line 1453, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .comments-area {
     padding: 50px 8px;
@@ -6416,14 +6609,17 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 413px) {
+
   /* line 1493, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
   }
+
   /* line 1497, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment .date {
     font-size: 11px;
   }
+
   /* line 1501, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
@@ -6492,6 +6688,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 1567, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .comment-form .name {
     padding-right: 0px;
@@ -6505,6 +6702,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 991px) {
+
   /* line 1576, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
   .comment-form .email {
     padding-left: 0px;
@@ -6595,7 +6793,8 @@ nav.nav-menu-show {
 }
 
 /* line 16, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -6717,6 +6916,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 991px) {
+
   /* line 133, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_contact.scss */
   .contact-section {
     padding: 70px 0 40px;
@@ -6724,6 +6924,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
   /* line 133, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_contact.scss */
   .contact-section {
     padding: 80px 0 50px;
@@ -6768,6 +6969,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 10, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .bradcam_area {
     padding: 150px 0;
@@ -6775,6 +6977,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 10, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .bradcam_area {
     padding: 150px 0;
@@ -6792,6 +6995,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 22, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 30px;
@@ -6799,6 +7003,7 @@ nav.nav-menu-show {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 22, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 40px;
@@ -6815,6 +7020,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 38, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .popup_box {
     width: 320px;
@@ -6823,6 +7029,7 @@ nav.nav-menu-show {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
   /* line 38, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .popup_box {
     width: 420px !important;
@@ -6929,6 +7136,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 131, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   #test-form {
     top: 0;
@@ -6953,6 +7161,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 151, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   #test-form button.mfp-close {
     display: block !important;
@@ -7004,6 +7213,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 208, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.timepicker {
     width: 310px;
@@ -7012,6 +7222,7 @@ nav.nav-menu-show {
 }
 
 @media (max-width: 767px) {
+
   /* line 215, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.datepicker.gj-unselectable {
     width: 320px;
@@ -7041,7 +7252,7 @@ nav.nav-menu-show {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 62, 62, 0) 27%, rgba(0, 64, 64, 0.01) 28%, rgba(51, 51, 102, 0.02) 29%, rgba(36, 36, 73, 0.03) 30%, rgba(28, 28, 85, 0.04) 31%, rgba(23, 46, 70, 0.05) 32%, rgba(20, 39, 78, 0.06) 33%, rgba(34, 34, 68, 0.07) 34%, rgba(30, 30, 75, 0.08) 35%, rgba(27, 40, 67, 0.09) 36%, rgba(26, 38, 77, 0.1) 37%, rgba(33, 33, 67, 0.11) 38%, rgba(32, 42, 74, 0.12) 39%, rgba(28, 38, 76, 0.13) 40%, rgba(25, 33, 74, 0.14) 42%, rgba(33, 41, 74, 0.15) 43%, rgba(30, 37, 75, 0.16) 44%, rgba(26, 39, 72, 0.17) 46%, rgba(32, 38, 70, 0.18) 47%, rgba(31, 37, 75, 0.19) 48%, rgba(28, 40, 74, 0.2) 50%, rgba(27, 37, 69, 0.21) 51%, rgba(31, 36, 73, 0.22) 52%, rgba(29, 39, 69, 0.23) 53%, rgba(29, 39, 74, 0.24) 54%, rgba(27, 36, 73, 0.25) 55%, rgba(30, 39, 73, 0.26) 57%, rgba(28, 36, 73, 0.27) 59%, rgba(27, 39, 70, 0.28) 60%, rgba(31, 39, 70, 0.29) 61%, rgba(28, 35, 71, 0.3) 63%, rgba(28, 38, 70, 0.31) 64%, rgba(30, 36, 73, 0.32) 66%, rgba(29, 39, 71, 0.33) 67%, rgba(30, 39, 71, 0.36) 71%, rgba(28, 36, 70, 0.37) 73%, rgba(30, 38, 72, 0.39) 76%, rgba(28, 36, 70, 0.4) 77%, rgba(30, 38, 71, 0.41) 79%, rgba(29, 37, 71, 0.56) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#8f1d2547',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#8f1d2547', GradientType=0);
   /* IE6-9 */
 }
 
@@ -7718,7 +7929,7 @@ del {
 }
 
 /* line 587, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.default-switch input + label {
+.default-switch input+label {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -7735,7 +7946,7 @@ del {
 }
 
 /* line 600, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.default-switch input:checked + label {
+.default-switch input:checked+label {
   left: 19px;
 }
 
@@ -7762,7 +7973,7 @@ del {
 }
 
 /* line 623, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-switch input + label {
+.primary-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7773,7 +7984,7 @@ del {
 }
 
 /* line 631, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-switch input + label:before {
+.primary-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7792,7 +8003,7 @@ del {
 }
 
 /* line 645, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-switch input + label:after {
+.primary-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -7810,12 +8021,12 @@ del {
 }
 
 /* line 661, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-switch input:checked + label:after {
+.primary-switch input:checked+label:after {
   left: 19px;
 }
 
 /* line 664, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-switch input:checked + label:before {
+.primary-switch input:checked+label:before {
   background: #1f2b7b;
 }
 
@@ -7842,7 +8053,7 @@ del {
 }
 
 /* line 688, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-switch input + label {
+.confirm-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7853,7 +8064,7 @@ del {
 }
 
 /* line 696, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-switch input + label:before {
+.confirm-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7872,7 +8083,7 @@ del {
 }
 
 /* line 710, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-switch input + label:after {
+.confirm-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -7890,12 +8101,12 @@ del {
 }
 
 /* line 726, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-switch input:checked + label:after {
+.confirm-switch input:checked+label:after {
   left: 19px;
 }
 
 /* line 729, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-switch input:checked + label:before {
+.confirm-switch input:checked+label:before {
   background: #4cd3e3;
 }
 
@@ -7922,7 +8133,7 @@ del {
 }
 
 /* line 753, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-checkbox input + label {
+.primary-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7936,7 +8147,7 @@ del {
 }
 
 /* line 766, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-checkbox input:checked + label {
+.primary-checkbox input:checked+label {
   background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -7964,7 +8175,7 @@ del {
 }
 
 /* line 790, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-checkbox input + label {
+.confirm-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7978,7 +8189,7 @@ del {
 }
 
 /* line 803, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-checkbox input:checked + label {
+.confirm-checkbox input:checked+label {
   background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8006,7 +8217,7 @@ del {
 }
 
 /* line 827, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.disabled-checkbox input + label {
+.disabled-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8026,7 +8237,7 @@ del {
 }
 
 /* line 844, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.disabled-checkbox input:checked + label {
+.disabled-checkbox input:checked+label {
   background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8054,7 +8265,7 @@ del {
 }
 
 /* line 868, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-radio input + label {
+.primary-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8068,7 +8279,7 @@ del {
 }
 
 /* line 881, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.primary-radio input:checked + label {
+.primary-radio input:checked+label {
   background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8096,7 +8307,7 @@ del {
 }
 
 /* line 905, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-radio input + label {
+.confirm-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8110,7 +8321,7 @@ del {
 }
 
 /* line 918, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.confirm-radio input:checked + label {
+.confirm-radio input:checked+label {
   background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8138,7 +8349,7 @@ del {
 }
 
 /* line 942, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.disabled-radio input + label {
+.disabled-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8158,7 +8369,7 @@ del {
 }
 
 /* line 959, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_elements.scss */
-.disabled-radio input:checked + label {
+.disabled-radio input:checked+label {
   background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
